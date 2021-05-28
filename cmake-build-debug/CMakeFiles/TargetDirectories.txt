@@ -1,0 +1,6 @@
+/Users/apple/Desktop/data_structure_source_code/cmake-build-debug/CMakeFiles/sequence_delete.dir
+/Users/apple/Desktop/data_structure_source_code/cmake-build-debug/CMakeFiles/sequence_insert.dir
+/Users/apple/Desktop/data_structure_source_code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/apple/Desktop/data_structure_source_code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/apple/Desktop/data_structure_source_code/cmake-build-debug/CMakeFiles/dynamic_locate.dir
+/Users/apple/Desktop/data_structure_source_code/cmake-build-debug/CMakeFiles/static_locate.dir

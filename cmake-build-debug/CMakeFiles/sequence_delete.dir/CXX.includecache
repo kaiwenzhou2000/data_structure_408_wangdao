@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/Desktop/data_structure_source_code/第一章_线性表/顺序表/删除操作.cpp
+顺序表.h
+/Users/apple/Desktop/data_structure_source_code/第一章_线性表/顺序表/顺序表.h
+stdio.h
+/Users/apple/Desktop/data_structure_source_code/第一章_线性表/顺序表/stdio.h
+
+/Users/apple/Desktop/data_structure_source_code/第一章_线性表/顺序表/顺序表.h
+
