@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/Desktop/data_structure_source_code/main.cpp
+iostream
+-
+
+/Users/apple/Desktop/data_structure_source_code/第一章_线性表/顺序表/静态分配.cpp
+stdio.h
+-
+

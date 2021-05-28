@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/apple/Desktop/data_structure_source_code/第一章_线性表/顺序表/插入操作.cpp
+stdio.h
+/Users/apple/Desktop/data_structure_source_code/第一章_线性表/顺序表/stdio.h
+
