@@ -5,7 +5,7 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-#define InitSize 10             // 顺序表的初始长度
+//#define InitSize 10             // 顺序表的初始长度
 
 // 使用动态分配
 typedef struct {
@@ -21,7 +21,6 @@ int get_element_by_position(Sqlist L, int i){
 
 
 // 初始化
-
 void init_table(Sqlist &L){
     L.data = (int*) malloc(sizeof(int) * InitSize);
     L.lenth = 0;
@@ -30,6 +29,8 @@ void init_table(Sqlist &L){
         L.data[i] = 0;
     }
 }
+
+
 int main(){
     Sqlist L;
     init_table(L);
