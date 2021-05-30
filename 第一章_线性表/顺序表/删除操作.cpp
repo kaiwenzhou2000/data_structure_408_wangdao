@@ -1,10 +1,18 @@
 //
-// Created by kaiven on 2021/5/28.
+// Created by kaiven on 2021/5/30.
 //
 
-#include "顺序表.h"
 #include "stdio.h"
 
+#define MaxSize 10      // 定最大长度
+
+typedef struct {
+    int data[MaxSize];          // 用静态的"数组"存放数据元素
+    int length;                 // 顺序表的当前长度
+}Sqlist;                        // 顺序表的类型定义
+
+
+// 删除顺序表中指定位序的元素
 bool ListDelete(Sqlist &L, int i, int &e){
     if(i < 1 || i > L.length){                  // 判断i的范围是否有效
         return false;
@@ -15,6 +23,14 @@ bool ListDelete(Sqlist &L, int i, int &e){
     }
     L.length--;                                 // 线性表长度减1
     return true;
+}
+
+// 基本操作---初始化一个顺序表
+void InitList(Sqlist &L){
+    for (int i = 0; i < MaxSize; ++i) {
+        L.data[i] = 0;          // 将所有的元素设置为默认初始值（0）
+    }
+    L.length = 0;               // 顺序表初始长度为0
 }
 
 int main(){

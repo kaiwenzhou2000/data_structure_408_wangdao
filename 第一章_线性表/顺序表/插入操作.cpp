@@ -1,6 +1,7 @@
 //
-// Created by kaiven on 2021/5/28.
+// Created by kaiven on 2021/5/30.
 //
+
 
 #include "stdio.h"
 
@@ -11,6 +12,8 @@ typedef struct {
     int length;                 // 顺序表的当前长度
 }Sqlist;                        // 顺序表的类型定义
 
+
+// 插入指定位序的元素
 bool ListInsert(Sqlist &L, int i, int e){
     if(i < 1 || i > L.length + 1){          // 判断i的范围是否有效
         return false;
@@ -26,7 +29,6 @@ bool ListInsert(Sqlist &L, int i, int e){
     return true;
 }
 
-
 // 基本操作---初始化一个顺序表
 void InitList(Sqlist &L){
     for (int i = 0; i < MaxSize; ++i) {
@@ -35,7 +37,7 @@ void InitList(Sqlist &L){
     L.length = 0;               // 顺序表初始长度为0
 }
 
-int main(){
+int main() {
     Sqlist L;
     InitList(L);
     // 测试
