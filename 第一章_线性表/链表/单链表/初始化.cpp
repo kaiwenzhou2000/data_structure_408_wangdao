@@ -5,6 +5,12 @@
 #include "stdio.h"
 #include "stdlib.h"
 
+/*
+ * intro
+ *  链表的初始化（带头结点和不带头结点）
+ *
+ * */
+
 // 单个节点的数据结构
 typedef struct LNode{
     int data;                       // 每个节点存放的一个数据元素
