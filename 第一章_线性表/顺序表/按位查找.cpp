@@ -5,7 +5,7 @@
 #include "stdio.h"
 #include "stdlib.h"
 
-//#define InitSize 10             // 顺序表的初始长度
+#define InitSize 10             // 顺序表的初始长度
 
 // 使用动态分配
 typedef struct {
