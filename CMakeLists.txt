@@ -12,3 +12,7 @@ add_executable(find_element_by_position 第一章_线性表/顺序表/按位查�
 add_executable(find_element_by_value 第一章_线性表/顺序表/按值查找.cpp)
 add_executable(link_list_init 第一章_线性表/链表/单链表/初始化.cpp)
 add_executable(link_list_insert 第一章_线性表/链表/单链表/链表插入.cpp)
+add_executable(link_list_insert_before_after 第一章_线性表/链表/单链表/指定节点的前插后插操作.cpp)
+add_executable(link_list_delete_by_position 第一章_线性表/链表/单链表/按位序删除.cpp)
+add_executable(link_list_delete_by_point 第一章_线性表/链表/单链表/指定节点删除.cpp)
+add_executable(link_list_find_by_position 第一章_线性表/链表/单链表/按位查找.cpp)
