@@ -16,3 +16,10 @@ add_executable(link_list_insert_before_after 第一章_线性表/链表/单链�
 add_executable(link_list_delete_by_position 第一章_线性表/链表/单链表/按位序删除.cpp)
 add_executable(link_list_delete_by_point 第一章_线性表/链表/单链表/指定节点删除.cpp)
 add_executable(link_list_find_by_position 第一章_线性表/链表/单链表/按位查找.cpp)
+add_executable(double_link_list_find_init 第一章_线性表/链表/双链表/初始化.cpp)
+add_executable(double_link_list_insert 第一章_线性表/链表/双链表/插入_删除_遍历.cpp)
+add_executable(cyc_single_link_list_init 第一章_线性表/链表/循环链表/循环单链表/初始化.cpp)
+add_executable(cyc_double_link_list_init 第一章_线性表/链表/循环链表/循环双链表/初始化.cpp)
+add_executable(cyc_double_link_list_insert_delete 第一章_线性表/链表/循环链表/循环双链表/插入_删除.cpp)
+add_executable(static_link_list_basic 第一章_线性表/链表/静态链表/静态链表基本操作.cpp)
+
